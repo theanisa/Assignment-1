@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-
+/* PAGE 01 */
 .header{
  background-image: url(../assets/Hero-bg.png);
  max-width:1960px;
@@ -59,6 +59,7 @@ background-color: rgb(13, 19, 33);
 align-items: center;
 padding: 21px 24px 21px 24px;
 }
+/* PAGE 2 */
 .page2{
     max-width:100%;
     height: 650px;
@@ -130,6 +131,7 @@ line-height: 36px;
 letter-spacing: 0%;
 text-align: left;
 }
+/* PAGE 3 */
     .page3{
         max-width:1960px;    
     }
@@ -160,4 +162,119 @@ text-align: left;
     flex-direction: row;
     justify-content: center;
     }
+/* PAGE 4 */
+    .page4-title{
+        color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+    .para4-descrip{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    }
+    
+    .btn4{
+     color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    }
+    .skill-description{
+        color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+text-align: left;
+
+}
+.skill-title{
+ color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+justify-content: center;
+}
+.targets{
+    display: flex;
+    gap:24px;
+    padding: 40px;
+}
+.skill1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);;
+}
+.skill2{
+border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+.skill3{
+border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
+/* PAGE 5  */
+.lastpage{
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+.lasttitle{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 42px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.lastdescription{
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.lastcontainer input{
+width: 750px;
+height: 47px;
+}
+.btn5{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+}
+    
     
